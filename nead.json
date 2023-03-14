@@ -1,0 +1,448 @@
+[
+    {
+        "group_id": 1,
+        "name": "ELEGIBILIDADE",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Apresenta Cuidador em período integral?",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "Sim"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Não"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "O domicílio é livre de risco?",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "Sim"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Não"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Existe algum impedimento para se deslocar até a rede credenciada?",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "Sim"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Não"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group_id": 2,
+        "name": "CRITÉRIOS PARA INDICAÇÃO IMEDIATA DE INTERNAÇÃO DOMICILIA",
+        "questions": [
+            {
+                "id": 1,
+                "text": "ALIMENTAÇÃO PARENTERAL",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "Por mais de 12 horas/dia"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Até 12 horas/dia"
+                    },
+                    {
+                        "value": "3",
+                        "label": "Não uliza"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "ASPIRAÇÃO DE TRAQUEOSTOMIA / VIAS AÉREAS INFERIORES",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "Por mais de 5 vezes/dia"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Até 5 vezes/dia"
+                    },
+                    {
+                        "value": "3",
+                        "label": "Não uliza"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "VENTILAÇÃO MECÂNICA CONTÍNU INVASIVA OU NÃO",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "Por mais de 12 horas/dia"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Até 12 horas/dia"
+                    },
+                    {
+                        "value": "3",
+                        "label": "Não uliza"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "MEDICAÇÃO PARENTERAL OU HIPODERMÓCLISE",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "Mais de 4 vezes/dia"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Até 4 vezes/dia"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group_id": 3,
+        "name": "CRITÉRIOS DE APOIO PARA INDICAÇÃO DE PLANEJAMENTO DE ATENÇÃO DOMICILIAR",
+        "questions": [
+            {
+                "id": 1,
+                "text": "ESTADO NUTRICIONAL",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "EUTRÓFICO",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "SOBREPESO / EMAGRECIDO",
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "OBESO / DESNUTRIDO",
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "ALIMENTAÇÃO OU MEDICAÇÕES POR VIA ENTERAL",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "SEM AUXÍLIO",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "ASSISTIDA",
+                        "points": 1
+
+                    },
+                    {
+                        "value": "3",
+                        "label": "GASTROSTOMIA / JEJUNOSTOMIA",
+                        "points": 2
+
+                    },
+                     {
+                         "value": "4",
+                         "label": "POR SNG / SNE *",
+                            "points": 3
+                     }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "KATZ** (SE PEDIATRIA PONTUAR 2)",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "DEPENDENTE",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "DEPENDENTE PARCIAL",
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "DEPENDENTE TOTAL",    
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "INTERNAÇÕES NO ÚLTIMO ANO",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "0 - 1 INTERNAÇÃO",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "2 - 3 INTERNAÇÕES",   
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "> 3 INTERNAÇÕES",
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "ASPIRAÇÕES VIAS AÉREAS SUPERIORES",
+                "options": [{
+                        "value": "1",
+                        "label": "AUSENTE",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "ATÉ 5 VEZES AO DIA",
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "MAIS DE 5 VEZES AO DIA",
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "LESÕES",
+                "options": [{
+                        "value": "1",
+                        "label": "NENHUMA OU LESÃO ÚNICA COM CURATIVO SIMPLES",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "MÚLTIPLAS LESÕES COM CURATIVOS SIMPLES OU ÚNICA LESÃO COM CURATIVO COMPLEXO",
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "MÚLTIPLAS LESÕES COM CURATIVOS COMPLEXOS",
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "MEDICAÇÕES",
+                "options": [{
+                        "value": "1",
+                        "label": "VIA ENTERAL",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "INTRAMUSCULAR ou SUBCUTÂNEA ** * ",
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "INTRAVENOSA ATÉ 4 VEZES AO DIA / HIPODERMÓCLISE",
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "EXERCÍCIOS VENTILATÓRIOS",
+                "options": [{
+                        "value": "1",
+                        "label": "AUSENTE",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "INTERMITENTE",
+                        "points": 1
+                    } 
+                ]
+            },
+            {
+                "id": 9,
+                "text": "USO DE OXIGENIOTERAPIA",
+                "options": [{
+                        "value": "1",
+                        "label": "AUSENTE",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "INTERMITENTE",
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "CONTÍNUO",
+                        "points": 2
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "NÍVEL DE CONSCIÊNCIA",
+                "options": [{
+                        "value": "1",
+                        "label": "ALERTA",
+                        "points": 0
+                    },
+                    {
+                        "value": "2",
+                        "label": "CONFUSO/DESORIENTADO",
+                        "points": 1
+                    },
+                    {
+                        "value": "3",
+                        "label": "COMATOSO",
+                        "points": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group_id": 4,
+        "name": "ESCORE DE KATZ",
+        "questions":[
+            {
+                "id": 1,
+                "text": "ATIVIDADES",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "SEM SUPERVISÃO, ORIENTAÇÃO OU ASSITÊNCIA PESSOAL",
+                        "points": 1
+                    },
+                    {
+                        "value": "2",
+                        "label": "COM SUPERVISÃO, ORIENTAÇÃO OU ASSISTÊNCIA PESSOAL OU CUIDADO INTEGRAL",
+                        "points": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "BANHAR-SE",
+                "options": [
+                    {
+                        "value": "1",
+                        "label": "BANHA-SE COMPLETAMENTE OU NECESSITA DE AUXÍLIO SOMENTE PARA LAVAR UMA PARTE DO CORPO, COMO AS COSTAS, GENITAIS OU UMA EXTREMIDADE INCAPACITADA",
+                        "points": 1
+                    },
+                    {
+                        "value": "2",
+                        "label": "NECESSITA DE AJUDA PARA BANHAR-SE EM MAIS DE UMA PARTE DO CORPO, ENTRAR E SAIR DO CHUVEIRO OU BANHEIRA OU REQUER ASSISTÊNCIA TOTAL NO BANHO",
+                        "points": 0
+                    }
+                ]
+            },
+               {
+                   "id": 3,
+                   "text": "VESTIR-SE",
+                   "options": [{
+                           "value": "1",
+                           "label": "PEGA AS ROUPAS DO ARMÁRIO E VESTE AS ROUPAS ÍNTIMAS EXTERNAS E CINTOS. PODE RECEBER AJUDA PARA AMARRAR OS SAPATOS",
+                           "points": 1
+                       },
+                       {
+                           "value": "2",
+                           "label": "NECESSITA DE AJUDA PARA VESTIR-SE OU NECESSITA SER COMPLETAMENTE VESTIDO",
+                           "points": 0
+                       }
+                   ]
+               },
+               {
+                   "id": 4,
+                   "text": "IR AO BANHEIRO",
+                   "options": [{
+                           "value": "1",
+                           "label": "DIRIGE-SE AO BANHEIRO, ENTRA E SAI DO MESMO, ARRUMA SUAS PRÓPRIAS ROUPAS, LIMPA A ÁREA GENITAL SEM AJUDA",
+                           "points": 1
+                       },
+                       {
+                           "value": "2",
+                           "label": "NECESSITA DE AJUDA PARA IR AO BANHEIRO, LIMPAR-SE OU USA URINOL OU COMADRE",
+                           "points": 0
+                       }
+                   ]
+               }, {
+                   "id":5 ,
+                   "text": "TRANSFERÊNCIA",
+                   "options": [{
+                           "value": "1",
+                           "label": "SENTA-SE, DEITA-SE E SE LEVANTA DA CAMA OU CADEIRA SEM AJUDA. EQUIPAMENTOS MECÂNICOS DE AJUDA SÃO ACEITÁVEIS",
+                           "points": 1
+                       },
+                       {
+                           "value": "2",
+                           "label": "NECESSITA DE AJUDA PARA SENTAR-SE, DEITAR-SE OU SE LEVANTAR DA CAMA OU CADEIRA",
+                           "points": 0
+                       }
+                   ]
+               }, {
+                   "id": 6,
+                   "text": "CONTINÊNCIA",
+                   "options": [{
+                           "value": "1",
+                           "label": "TEM COMPLETO CONTROLE SOBRE SUAS ELIMINAÇÕES (URINAR E EVACUAR)",
+                           "points": 1
+                       },
+                       {
+                           "value": "2",
+                           "label": "É PARCIAL OU TOTALMENTE  INCONTINENTE DO INTESTINO OU BEXIGA",
+                           "points": 0
+                       }
+                   ]
+               }, {
+                   "id": 7,
+                   "text": "ALIMENTAÇÃO",
+                   "options": [{
+                           "value": "1",
+                           "label": "LEVA A COMIDA DO PRATO À BOCA SEM AJUDA. PREPARAÇÃO DA COMIDA PODE SER FEITA POR OUTRA PESSOA",
+                           "points": 1
+                       },
+                       {
+                           "value": "2",
+                           "label": "NECESSITA DE AJUDA PARCIAL OU TOTAL COM A ALIMENTAÇÃO OU REQUER ALIMENTAÇÃO PARENTERAL",
+                           "points": 0
+                       }
+                   ]
+               }
+            
+          
+        ]
+    }
+]
