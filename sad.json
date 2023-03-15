@@ -1,0 +1,347 @@
+[
+  {
+    "question": "Idade",
+    "options": [
+      {
+        "label": "Até 60 anos",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Acima de 60 anos",
+        "value": 2,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "Doença Crônica",
+    "options": [
+      {
+        "label": "Não",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Sim",
+        "value": 2,
+        "points": 2
+      }
+    ]
+  },
+  {
+    "question": "Cognição",
+    "options": [
+      {
+        "label": "Consciente e orientado",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Confuso e/ou agitado",
+        "value": 2,
+        "points": 6
+      },
+      {
+        "label": "Semicomatoso / Inconsciente",
+        "value": 3,
+        "points": 8
+      },
+      {
+        "label": "Comatoso",
+        "value": 4,
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Estado Nutricional",
+    "options": [
+      {
+        "label": "Eutrófico",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Emagrecido",
+        "value": 2,
+        "points": 1
+      },
+      {
+        "label": "Obesidade",
+        "value": 3,
+        "points": 1
+      },
+      {
+        "label": "Obesidade Mórbida",
+        "value": 4,
+        "points": 2
+      },
+      {
+        "label": "Caquético",
+        "value": 5,
+        "points": 2
+      }
+    ]
+  },
+  {
+    "question": "Dieta",
+    "options": [
+      {
+        "label": "Via oral",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Por gastrostomia",
+        "value": 2,
+        "points": 2
+      },
+      {
+        "label": "Por SNE",
+        "value": 3,
+        "points": 4
+      },
+      {
+        "label": "Por jejunostomia",
+        "value": 4,
+        "points": 6
+      },
+      {
+        "label": "NP",
+        "value": 5,
+        "points": 86
+      }
+    ]
+  },
+  {
+    "question": "Eliminações",
+    "options": [
+      {
+        "label": "Com controle de esfíncteres",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Sem controle de esfíncteres",
+        "value": 2,
+        "points": 1
+      },
+      {
+        "label": "Uso de sondas",
+        "value": 3,
+        "points": 3
+      },
+      {
+        "label": "Ostomias:  colostomia, ileostomia, cistostomia e outras",
+        "value": 4,
+        "points": 3
+      },
+      {
+        "label": "Uso de sonda e ostomias",
+        "value": 5,
+        "points": 4
+      }
+    ]
+  },
+  {
+    "question": "Autocuidado (KATZ)",
+    "options": [
+      {
+        "label": "Independente",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Dependente parcial",
+        "value": 2,
+        "points": 1
+      },
+      {
+        "label": "Dependente total",
+        "value": 3,
+        "points": 4
+      }
+    ]
+  },
+  {
+    "question": "Úlcera por pressão",
+    "options": [
+      {
+        "label": "Ausente",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Categoria I ",
+        "value": 2,
+        "points": 2
+      },
+      {
+        "label": "Categoria II",
+        "value": 3,
+        "points": 4
+      },
+      {
+        "label": "Categoria III",
+        "value": 4,
+        "points": 6
+      },
+      {
+        "label": "Categoria IV",
+        "value": 5,
+        "points": 8
+      },
+      {
+        "label": "Não classificáve",
+        "value": 6,
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Outras feridas",
+    "options": [
+      {
+        "label": "Ausente",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Pequena",
+        "value": 2,
+        "points": 2
+      },
+      {
+        "label": "Média",
+        "value": 3,
+        "points": 4
+      },
+      {
+        "label": "Grande",
+        "value": 4,
+        "points": 6
+      }
+    ]
+  },
+  {
+    "question": "Internações no período de 1 ano",
+    "options": [
+      {
+        "label": "0 - 1 internações",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "2 - 3 internações",
+        "value": 2,
+        "points": 1
+      },
+      {
+        "label": "> 3 internações",
+        "value": 3,
+        "points": 2
+      }
+    ]
+  },
+  {
+    "question": "Dispositivos Invasivos",
+    "options": [
+      {
+        "label": "Ausente",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Acesso venoso periférico",
+        "value": 1,
+        "points": 2
+      },
+      {
+        "label": "Drenos cirúrgicos",
+        "value": 1,
+        "points": 4
+      },
+      {
+        "label": "Acesso venoso profundo",
+        "value": 1,
+        "points": 6
+      }
+    ]
+  },
+  {
+    "question": "Secreção pulmonar",
+    "options": [
+      {
+        "label": "Sem necessidade de aspiração",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Sem necessidade de aspiração com traqueostomia",
+        "value": 1,
+        "points": 6
+      },
+      {
+        "label": "Com necessidade de aspiração sem traqueostomia",
+        "value": 1,
+        "points": 9
+      },
+      {
+        "label": "Com necessidade de aspiração e com traqueostomia ",
+        "value": 1,
+        "points": 24
+      }
+    ]
+  },
+  {
+    "question": "Oxigenoterapia",
+    "options": [
+      {
+        "label": "Independente",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Dependente Intermitente",
+        "value": 1,
+        "points": 3
+      },
+      {
+        "label": "Dependente Contínuo",
+        "value": 1,
+        "points": 6
+      }
+    ]
+  },
+  {
+    "question": "Suporte Ventilatório",
+    "options": [
+      {
+        "label": "Ausente",
+        "value": 1,
+        "points": 0
+      },
+      {
+        "label": "Dependente de Bipap (não invasivo) - Intermitente",
+        "value": 1,
+        "points": 3
+      },
+      {
+        "label": "Dependente de Bipap (não invasivo) - Contínuo",
+        "value": 1,
+        "points": 6
+      },
+      {
+        "label": "Ventilação mecânica invasiva  (ventiladores e Bipap) - Intermitente",
+        "value": 1,
+        "points": 86
+      },
+      {
+        "label": "Ventilação mecânica invasiva  (ventiladores e Bipap) - Contínuo",
+        "value": 1,
+        "points": 86
+      }
+    ]
+  }
+]
